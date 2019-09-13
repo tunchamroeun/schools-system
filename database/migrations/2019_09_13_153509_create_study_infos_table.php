@@ -15,6 +15,12 @@ class CreateStudyInfosTable extends Migration
     {
         Schema::create('study_infos', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->bigInteger('student_id');
+            $table->bigInteger('group_section_id');
+            $table->bigInteger('section_id');
+            $table->bigInteger('class_id');
+            $table->bigInteger('shift_id');
+            $table->bigInteger('employee_id');
             $table->timestamps();
         });
     }

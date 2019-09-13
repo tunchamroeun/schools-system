@@ -15,6 +15,10 @@ class CreateServiceInfosTable extends Migration
     {
         Schema::create('service_infos', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->bigInteger('student_id');
+            $table->bigInteger('service_section_id');
+            $table->bigInteger('service_id');
+            $table->boolean('is_service');
             $table->timestamps();
         });
     }

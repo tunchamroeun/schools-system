@@ -15,6 +15,11 @@ class CreateParentsTable extends Migration
     {
         Schema::create('parents', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->bigInteger('student_id');
+            $table->string('name');
+            $table->string('parent_type');
+            $table->string('job');
+            $table->string('tel');
             $table->timestamps();
         });
     }
