@@ -17,7 +17,7 @@ class CreateStudentsTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('name_latin');
-            $table->string('sex');
+            $table->string('gender');
             $table->date('dob');
             $table->timestamps();
         });
