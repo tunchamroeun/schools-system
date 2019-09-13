@@ -422,20 +422,39 @@ class ComposerStaticInit5afaf4faaef38cb4e3cc6f133719b0ef
     );
 
     public static $classMap = array (
+        'App\\Class' => __DIR__ . '/../..' . '/app/Class.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+<<<<<<< HEAD
         'App\\Contact' => __DIR__ . '/../..' . '/app/Contact.php',
+=======
+        'App\\Employee' => __DIR__ . '/../..' . '/app/Employee.php',
+>>>>>>> 4ad8d5a1f326f2a87ad5770c0ab6317011b7d188
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\GroupSection' => __DIR__ . '/../..' . '/app/GroupSection.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
+<<<<<<< HEAD
         'App\\Http\\Controllers\\ContactController' => __DIR__ . '/../..' . '/app/Http/Controllers/ContactController.php',
+=======
+        'App\\Http\\Controllers\\ClassController' => __DIR__ . '/../..' . '/app/Http/Controllers/ClassController.php',
+>>>>>>> 4ad8d5a1f326f2a87ad5770c0ab6317011b7d188
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\GroupSectionController' => __DIR__ . '/../..' . '/app/Http/Controllers/GroupSectionController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+<<<<<<< HEAD
         'App\\Http\\Controllers\\ParentsController' => __DIR__ . '/../..' . '/app/Http/Controllers/ParentsController.php',
         'App\\Http\\Controllers\\StudentController' => __DIR__ . '/../..' . '/app/Http/Controllers/StudentController.php',
         'App\\Http\\Controllers\\StudyInfoController' => __DIR__ . '/../..' . '/app/Http/Controllers/StudyInfoController.php',
+=======
+        'App\\Http\\Controllers\\LevelController' => __DIR__ . '/../..' . '/app/Http/Controllers/LevelController.php',
+        'App\\Http\\Controllers\\SectionController' => __DIR__ . '/../..' . '/app/Http/Controllers/SectionController.php',
+        'App\\Http\\Controllers\\ServiceController' => __DIR__ . '/../..' . '/app/Http/Controllers/ServiceController.php',
+        'App\\Http\\Controllers\\ServiceSectionController' => __DIR__ . '/../..' . '/app/Http/Controllers/ServiceSectionController.php',
+        'App\\Http\\Controllers\\ShiftController' => __DIR__ . '/../..' . '/app/Http/Controllers/ShiftController.php',
+>>>>>>> 4ad8d5a1f326f2a87ad5770c0ab6317011b7d188
         'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
@@ -445,15 +464,26 @@ class ComposerStaticInit5afaf4faaef38cb4e3cc6f133719b0ef
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+<<<<<<< HEAD
         'App\\Parents' => __DIR__ . '/../..' . '/app/Parents.php',
+=======
+        'App\\Level' => __DIR__ . '/../..' . '/app/Level.php',
+>>>>>>> 4ad8d5a1f326f2a87ad5770c0ab6317011b7d188
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+<<<<<<< HEAD
         'App\\ServiceInfo' => __DIR__ . '/../..' . '/app/ServiceInfo.php',
         'App\\Student' => __DIR__ . '/../..' . '/app/Student.php',
         'App\\StudyInfo' => __DIR__ . '/../..' . '/app/StudyInfo.php',
+=======
+        'App\\Section' => __DIR__ . '/../..' . '/app/Section.php',
+        'App\\Service' => __DIR__ . '/../..' . '/app/Service.php',
+        'App\\ServiceSection' => __DIR__ . '/../..' . '/app/ServiceSection.php',
+        'App\\Shift' => __DIR__ . '/../..' . '/app/Shift.php',
+>>>>>>> 4ad8d5a1f326f2a87ad5770c0ab6317011b7d188
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'BeyondCode\\DumpServer\\DumpServerCommand' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerCommand.php',
         'BeyondCode\\DumpServer\\DumpServerServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerServiceProvider.php',

@@ -6,20 +6,39 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Class' => $baseDir . '/app/Class.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
+<<<<<<< HEAD
     'App\\Contact' => $baseDir . '/app/Contact.php',
+=======
+    'App\\Employee' => $baseDir . '/app/Employee.php',
+>>>>>>> 4ad8d5a1f326f2a87ad5770c0ab6317011b7d188
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+    'App\\GroupSection' => $baseDir . '/app/GroupSection.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
     'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
     'App\\Http\\Controllers\\Auth\\RegisterController' => $baseDir . '/app/Http/Controllers/Auth/RegisterController.php',
     'App\\Http\\Controllers\\Auth\\ResetPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ResetPasswordController.php',
     'App\\Http\\Controllers\\Auth\\VerificationController' => $baseDir . '/app/Http/Controllers/Auth/VerificationController.php',
+<<<<<<< HEAD
     'App\\Http\\Controllers\\ContactController' => $baseDir . '/app/Http/Controllers/ContactController.php',
+=======
+    'App\\Http\\Controllers\\ClassController' => $baseDir . '/app/Http/Controllers/ClassController.php',
+>>>>>>> 4ad8d5a1f326f2a87ad5770c0ab6317011b7d188
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\GroupSectionController' => $baseDir . '/app/Http/Controllers/GroupSectionController.php',
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
+<<<<<<< HEAD
     'App\\Http\\Controllers\\ParentsController' => $baseDir . '/app/Http/Controllers/ParentsController.php',
     'App\\Http\\Controllers\\StudentController' => $baseDir . '/app/Http/Controllers/StudentController.php',
     'App\\Http\\Controllers\\StudyInfoController' => $baseDir . '/app/Http/Controllers/StudyInfoController.php',
+=======
+    'App\\Http\\Controllers\\LevelController' => $baseDir . '/app/Http/Controllers/LevelController.php',
+    'App\\Http\\Controllers\\SectionController' => $baseDir . '/app/Http/Controllers/SectionController.php',
+    'App\\Http\\Controllers\\ServiceController' => $baseDir . '/app/Http/Controllers/ServiceController.php',
+    'App\\Http\\Controllers\\ServiceSectionController' => $baseDir . '/app/Http/Controllers/ServiceSectionController.php',
+    'App\\Http\\Controllers\\ShiftController' => $baseDir . '/app/Http/Controllers/ShiftController.php',
+>>>>>>> 4ad8d5a1f326f2a87ad5770c0ab6317011b7d188
     'App\\Http\\Controllers\\UserController' => $baseDir . '/app/Http/Controllers/UserController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
@@ -29,15 +48,26 @@ return array(
     'App\\Http\\Middleware\\TrimStrings' => $baseDir . '/app/Http/Middleware/TrimStrings.php',
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
+<<<<<<< HEAD
     'App\\Parents' => $baseDir . '/app/Parents.php',
+=======
+    'App\\Level' => $baseDir . '/app/Level.php',
+>>>>>>> 4ad8d5a1f326f2a87ad5770c0ab6317011b7d188
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',
     'App\\Providers\\BroadcastServiceProvider' => $baseDir . '/app/Providers/BroadcastServiceProvider.php',
     'App\\Providers\\EventServiceProvider' => $baseDir . '/app/Providers/EventServiceProvider.php',
     'App\\Providers\\RouteServiceProvider' => $baseDir . '/app/Providers/RouteServiceProvider.php',
+<<<<<<< HEAD
     'App\\ServiceInfo' => $baseDir . '/app/ServiceInfo.php',
     'App\\Student' => $baseDir . '/app/Student.php',
     'App\\StudyInfo' => $baseDir . '/app/StudyInfo.php',
+=======
+    'App\\Section' => $baseDir . '/app/Section.php',
+    'App\\Service' => $baseDir . '/app/Service.php',
+    'App\\ServiceSection' => $baseDir . '/app/ServiceSection.php',
+    'App\\Shift' => $baseDir . '/app/Shift.php',
+>>>>>>> 4ad8d5a1f326f2a87ad5770c0ab6317011b7d188
     'App\\User' => $baseDir . '/app/User.php',
     'BeyondCode\\DumpServer\\DumpServerCommand' => $vendorDir . '/beyondcode/laravel-dump-server/src/DumpServerCommand.php',
     'BeyondCode\\DumpServer\\DumpServerServiceProvider' => $vendorDir . '/beyondcode/laravel-dump-server/src/DumpServerServiceProvider.php',
