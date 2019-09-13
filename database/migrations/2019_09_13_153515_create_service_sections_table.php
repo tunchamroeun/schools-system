@@ -15,6 +15,7 @@ class CreateServiceSectionsTable extends Migration
     {
         Schema::create('service_sections', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('service_section');
             $table->timestamps();
         });
     }

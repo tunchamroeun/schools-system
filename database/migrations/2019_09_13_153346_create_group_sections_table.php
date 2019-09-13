@@ -15,6 +15,7 @@ class CreateGroupSectionsTable extends Migration
     {
         Schema::create('group_sections', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('group_section');
             $table->timestamps();
         });
     }

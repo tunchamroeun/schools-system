@@ -15,6 +15,11 @@ class CreateShiftsTable extends Migration
     {
         Schema::create('shifts', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->bigInteger('group_section_id');
+            $table->string('shift');
+            $table->string('start');
+            $table->string('end');
+            $table->string('duration');
             $table->timestamps();
         });
     }
